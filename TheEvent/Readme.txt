@@ -1,6 +1,1 @@
-Thanks for downloading this template!
-
-Template Name: TheEvent
-Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Please check the allignment in the splash screen of (index_for_mal.html)
