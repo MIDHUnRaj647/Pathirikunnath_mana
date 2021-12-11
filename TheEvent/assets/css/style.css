@@ -112,7 +112,7 @@ Splash Screen
 
 /*------------------------------For 15" lap-------------------*/
 
-@media (max-width: 1280px) {
+@media (min-width: 1280px) {
    
   .intro{
     position: fixed;
@@ -131,7 +131,7 @@ Splash Screen
     left: 50%;
     transform: translate(-50%,-50%);
     color: #e9f4fb;
-    font-size: 20px;
+    font-size: 40px;
   }
   .logo-header2{
     position: absolute;
