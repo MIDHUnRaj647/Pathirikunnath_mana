@@ -1,8 +1,8 @@
 /**
-* Template Name: TheEvent - v4.7.0
-* Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+* 
+* 
+* 
+* 
 */
 
 /*--------------------------------------------------------------
@@ -737,9 +737,10 @@ Splash Screen
   color: #fff;
 }
 #about p {
-  font-size: 14px;
+  font-size: 20px;
   margin-bottom: 20px;
   color: #fff;
+  text-align: justify;
 }
 
 /*--------------------------------------------------------------
@@ -1511,15 +1512,22 @@ Gallery 2 section
   color: #fff;
 }
 #footer .footer-top .footer-info img {
-  height: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80px;
+  width: 70px;
   margin-bottom: 10px;
+  margin-top: 60px;
 }
 #footer .footer-top .footer-info p {
-  font-size: 14px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  color: #f82249;
 }
 #footer .footer-top .social-links a {
   display: inline-block;
@@ -1613,4 +1621,11 @@ Gallery 2 section
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+@media (max-width: 480px) {
+   .navbar-brand span {
+    display: none  ;
+
+
+  }
 }
