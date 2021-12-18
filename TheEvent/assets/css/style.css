@@ -816,8 +816,18 @@ Splash Screen
 # Speakers Section
 --------------------------------------------------------------*/
 #speakers {
-  padding: 60px 0 30px 0;
+  /* background: url("../img/Pattern1.jpeg"); Commented for future---background for div same as about.
+  background-size: contain;
+  overflow: hidden;
+  position: relative;
+  color: #fff; */
+  padding: 60px 0 40px 0;
 }
+/* @media (min-width: 1024px) {
+  #speakers {
+    background-attachment: fixed;
+  }
+} */
 #speakers .speaker {
   position: relative;
   overflow: hidden;

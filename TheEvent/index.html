@@ -15,6 +15,7 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+  
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -33,7 +34,7 @@
 <body>
   <!-- Splash Screen -->
   <div class="intro">     
-    <!-- <audio id="my_audio" src="assets/audio/IntroBgm.mp3" loop="loop" autoplay="autoplay"></audio> -->
+    <audio id="my_audio" src="assets/audio/IntroBgm.mp3"  autoplay="autoplay" ></audio>
     <h5 class="logo-header2"><span class="logo">Welcome to</span></h5>
     <img src="assets/img/Pathirikunnathmana_testlogo_white.png"  class="logo-headerforlogo logo">
     <h1 class="logo-header"><span class="logo">Pathirikunnath</span><span  class="logo" style="color: #f82249;">&nbsp;&nbsp;Mana</span></h1>
@@ -1208,7 +1209,11 @@
   <script src="assets/js/main.js"></script>
   <script src="assets/js/email.js"></script>
   <script src="https://smtpjs.com/v3/smtp.js"></script>
-
+<script>
+  window.onload = function(){
+    document.getElementById("my_audio").play();
+  }
+</script>
   
   
 
