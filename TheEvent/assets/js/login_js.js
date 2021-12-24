@@ -21,10 +21,10 @@ window.addEventListener('DOMContentLoaded', () => {
 
                 }, (idx + 1) * 50)
             })
-        }, 2500);
+        }, 2600);
         setTimeout(() => {
             intro.style.top = '-100vh'
-    }, 2500)
+    }, 2600)
 })
 
 })
