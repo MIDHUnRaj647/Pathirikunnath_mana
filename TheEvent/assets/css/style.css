@@ -951,7 +951,7 @@ h6 {
 }
 #schedule .nav-tabs a {
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   font-weight: 600;
   background-color: #fff;
   color: #1d1d1d;
@@ -995,6 +995,7 @@ h6 {
   padding-top: 15px;
   padding-bottom: 15px;
   transition: background-color ease-in-out 0.3s;
+  border-radius: 5px;
 }
 #schedule .schedule-item:hover {
   background-color: rgb(124, 184, 0);
