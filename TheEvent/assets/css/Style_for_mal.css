@@ -1519,7 +1519,7 @@ h6 {
 #contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #187945;
+  background: rgb(108, 156, 13);
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1548,7 +1548,7 @@ h6 {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid rgb(108, 156, 13);
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1579,7 +1579,7 @@ h6 {
   cursor: pointer;
 }
 #contact .php-email-form button[type="submit"]:hover {
-  background: #18d26e;
+  background: rgb(108, 156, 13);
 }
 #contact .php-email-form .emailBtn {
   background: rgb(124, 184, 0);
@@ -1591,7 +1591,7 @@ h6 {
   cursor: pointer;
 }
 #contact .php-email-form .emailBtn:hover {
-  background: #18d26e;
+  background: rgb(108, 156, 13);
 }
 @-webkit-keyframes animate-loading {
   0% {
