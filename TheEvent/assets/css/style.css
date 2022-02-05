@@ -2107,12 +2107,12 @@ h6 {
     overflow: visible;
     /* so we can see the pseudo-elements we're going to add to the anchor */
 
-    font-size: 18px;
+    font-size: 16px;
     font-family: "Noto Serif Malayalam", serif;
     font-weight: bold;
     /* font-size and line-height must be equal so we can account for the height of the banner */
 
-    line-height: 18px;
+    line-height: 16px;
   }
 
   #ribbon-container:before {
@@ -2123,12 +2123,12 @@ h6 {
     position: absolute;
     top: 3px;
     left: 0;
-    border-top: 29px solid rgba(0, 0, 0, 0.3);
+    border-top: 20px solid rgba(0, 0, 0, 0.3);
     /* These 4 border properties create the first part of our drop-shadow */
 
-    border-bottom: 29px solid rgba(0, 0, 0, 0.3);
-    border-right: 29px solid rgba(0, 0, 0, 0.3);
-    border-left: 29px solid transparent;
+    border-bottom: 20px solid rgba(0, 0, 0, 0.3);
+    border-right: 20px solid rgba(0, 0, 0, 0.3);
+    border-left: 20px solid transparent;
   }
 
   #ribbon-container:after {
@@ -2147,15 +2147,17 @@ h6 {
   #ribbon-container a {
     display: block;
     padding: 20px;
+    padding-top: 12px;
     position: relative;
     /* allows us to position our pseudo-elements properly */
 
     background: rgb(124, 184, 0);
     overflow: visible;
-    height: 58px;
+    height: 30px;
     margin-left: 29px;
     color: rgb(0, 0, 0);
     text-decoration: none;
+    
   }
 
   #ribbon-container a:after {
@@ -2166,10 +2168,10 @@ h6 {
     width: 0;
     display: block;
     position: absolute;
-    bottom: -15px;
-    right: 0;
+    bottom: -10px;
+    right: -5px;
     border-top: 15px solid rgb(124, 184, 0);
-    border-right: 15px solid transparent;
+    border-right: 10px solid transparent;
   }
 
   #ribbon-container a:before {
@@ -2181,11 +2183,11 @@ h6 {
     display: block;
     position: absolute;
     top: 0;
-    left: -29px;
-    border-top: 29px solid rgb(124, 184, 0);
-    border-bottom: 29px solid rgb(124, 184, 0);
-    border-right: 29px solid transparent;
-    border-left: 29px solid transparent;
+    left: -16px;
+    border-top: 16px solid rgb(124, 184, 0);
+    border-bottom: 16px solid rgb(124, 184, 0);
+    border-right: 16px solid transparent;
+    border-left: 16px solid transparent;
   }
 
   #ribbon-container a:hover {
