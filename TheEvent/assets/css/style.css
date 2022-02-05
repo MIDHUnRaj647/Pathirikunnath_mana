@@ -2107,12 +2107,12 @@ h6 {
     overflow: visible;
     /* so we can see the pseudo-elements we're going to add to the anchor */
 
-    font-size: 16px;
+    font-size: 12px;
     font-family: "Noto Serif Malayalam", serif;
     font-weight: bold;
     /* font-size and line-height must be equal so we can account for the height of the banner */
 
-    line-height: 16px;
+    line-height: 12px;
   }
 
   #ribbon-container:before {
@@ -2147,14 +2147,16 @@ h6 {
   #ribbon-container a {
     display: block;
     padding: 20px;
-    padding-top: 12px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     position: relative;
     /* allows us to position our pseudo-elements properly */
 
     background: rgb(124, 184, 0);
     overflow: visible;
     height: 30px;
-    margin-left: 29px;
+    margin-left: 0px;
     color: rgb(0, 0, 0);
     text-decoration: none;
     
@@ -2169,7 +2171,7 @@ h6 {
     display: block;
     position: absolute;
     bottom: -10px;
-    right: -5px;
+    right: -4px;
     border-top: 15px solid rgb(124, 184, 0);
     border-right: 10px solid transparent;
   }
@@ -2183,11 +2185,11 @@ h6 {
     display: block;
     position: absolute;
     top: 0;
-    left: -16px;
-    border-top: 16px solid rgb(124, 184, 0);
-    border-bottom: 16px solid rgb(124, 184, 0);
-    border-right: 16px solid transparent;
-    border-left: 16px solid transparent;
+    left: -15px;
+    border-top: 15px solid rgb(124, 184, 0);
+    border-bottom: 15px solid rgb(124, 184, 0);
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
   }
 
   #ribbon-container a:hover {
