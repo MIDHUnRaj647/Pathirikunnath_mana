@@ -764,6 +764,12 @@ h6 {
   background: rgb(124, 184, 0);
   color: #fff;
 }
+.mainlogo {
+  max-width: 30%;
+  height: auto;
+  display: table;
+  margin: 0 auto;
+}
 
 @-webkit-keyframes pulsate-btn {
   0% {
@@ -2150,7 +2156,6 @@ h6 {
     margin-left: 0px;
     color: rgb(0, 0, 0);
     text-decoration: none;
-    
   }
 
   #ribbon-container a:after {
