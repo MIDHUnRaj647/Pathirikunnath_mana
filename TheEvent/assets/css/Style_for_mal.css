@@ -1997,11 +1997,11 @@ h6 {
   overflow: visible;
   /* so we can see the pseudo-elements we're going to add to the anchor */
 
-  font-size: 18px;
+  font-size: 14px;
   font-family: "Amaranth", sans-serif;
   /* font-size and line-height must be equal so we can account for the height of the banner */
 
-  line-height: 18px;
+  line-height: 14px;
 }
 
 #ribbon-container:before {
@@ -2087,5 +2087,114 @@ h6 {
   border-top: 29px solid rgb(108, 156, 13);
   border-bottom: 29px solid rgb(108, 156, 13);
 }
+
+/* FOR MOBILE VIEW */
+
+@media (max-width: 480px) {
+  #ribbon-container {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    overflow: visible;
+    /* so we can see the pseudo-elements we're going to add to the anchor */
+
+    font-size: 14px;
+    font-family: "Amaranth", sans-serif;
+    font-weight: bold;
+    /* font-size and line-height must be equal so we can account for the height of the banner */
+
+    line-height: 14px;
+  }
+
+  #ribbon-container:before {
+    content: "";
+    height: 0;
+    width: 0;
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    border-top: 20px solid rgba(0, 0, 0, 0.3);
+    /* These 4 border properties create the first part of our drop-shadow */
+
+    border-bottom: 20px solid rgba(0, 0, 0, 0.3);
+    border-right: 20px solid rgba(0, 0, 0, 0.3);
+    border-left: 20px solid transparent;
+  }
+
+  #ribbon-container:after {
+    /* This adds the second part of our dropshadow */
+
+    content: "";
+    height: 3px;
+    background: rgba(0, 0, 0, 0.3);
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 58px;
+    right: 3px;
+  }
+
+  #ribbon-container a {
+    display: block;
+    padding: 20px;
+    padding-top: 9px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    /* allows us to position our pseudo-elements properly */
+
+    background: rgb(124, 184, 0);
+    overflow: visible;
+    height: 30px;
+    margin-left: 0px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+  }
+
+  #ribbon-container a:after {
+    /* this creates the "folded" part of our ribbon */
+
+    content: "";
+    height: 0;
+    width: 0;
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    right: -4px;
+    border-top: 15px solid rgb(124, 184, 0);
+    border-right: 10px solid transparent;
+  }
+
+  #ribbon-container a:before {
+    /* this creates the "forked" part of our ribbon */
+
+    content: "";
+    height: 0;
+    width: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -15px;
+    border-top: 15px solid rgb(124, 184, 0);
+    border-bottom: 15px solid rgb(124, 184, 0);
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+  }
+
+  #ribbon-container a:hover {
+    background: rgb(108, 156, 13);
+  }
+
+  #ribbon-container a:hover:before {
+    /* this makes sure that the "forked" part of the ribbon changes color with the anchor on :hover */
+
+    border-top: 15px solid rgb(108, 156, 13);
+    border-bottom: 15px solid rgb(108, 156, 13);
+  }
+}
+
+/* LANGUAGE BANNER END */
 
 /* LANGUAGE BANNER END */
