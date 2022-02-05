@@ -2107,12 +2107,12 @@ h6 {
     overflow: visible;
     /* so we can see the pseudo-elements we're going to add to the anchor */
 
-    font-size: 12px;
+    font-size: 14px;
     font-family: "Noto Serif Malayalam", serif;
     font-weight: bold;
     /* font-size and line-height must be equal so we can account for the height of the banner */
 
-    line-height: 12px;
+    line-height: 14px;
   }
 
   #ribbon-container:before {
@@ -2147,7 +2147,7 @@ h6 {
   #ribbon-container a {
     display: block;
     padding: 20px;
-    padding-top: 10px;
+    padding-top: 9px;
     padding-left: 5px;
     padding-right: 5px;
     position: relative;
@@ -2199,8 +2199,8 @@ h6 {
   #ribbon-container a:hover:before {
     /* this makes sure that the "forked" part of the ribbon changes color with the anchor on :hover */
 
-    border-top: 29px solid rgb(108, 156, 13);
-    border-bottom: 29px solid rgb(108, 156, 13);
+    border-top: 15px solid rgb(108, 156, 13);
+    border-bottom: 15px solid rgb(108, 156, 13);
   }
 }
 
