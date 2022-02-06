@@ -399,6 +399,7 @@ h6 {
 }
 #header #logo h1 span {
   color: rgb(124, 184, 0);
+  margin-top: 35px;
 }
 #header #logo h1 a,
 #header #logo h1 a:hover {
@@ -413,7 +414,7 @@ h6 {
 @media (max-width: 992px) {
   #header #logo img {
     max-height: 50px;
-    margin-top: -9px;
+    margin-top: -2px;
   }
 }
 
@@ -567,6 +568,9 @@ h6 {
   .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
+}
+.navbar li a {
+  margin-top: -10px;
 }
 
 /**
@@ -835,6 +839,11 @@ h6 {
   height: auto;
   display: table;
   margin: 0 auto;
+}
+@media (max-width: 480px) {
+  .mainlogo {
+    max-width: 60%;
+  }
 }
 
 @-webkit-keyframes pulsate-btn {
