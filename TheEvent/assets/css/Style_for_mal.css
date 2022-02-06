@@ -243,7 +243,6 @@ h6 {
   }
 }
 
-
 /*----------------- For Mobile Section------------------------*/
 @media (max-width: 480px) {
   .intro {
@@ -1781,6 +1780,7 @@ h6 {
 }
 #footer .footer-top .footer-contact p {
   line-height: 26px;
+  font-family: "Amaranth", sans-serif;
 }
 #footer .footer-top .footer-newsletter {
   margin-bottom: 30px;
@@ -1801,7 +1801,7 @@ h6 {
   cursor: pointer;
 }
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #e0072f;
+  background: rgb(111, 161, 11);
 }
 #footer .copyright {
   text-align: center;
