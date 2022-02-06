@@ -263,7 +263,7 @@ h6 {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #e9f4fb;
-    font-size: 20px;
+    font-size: 100%;
   }
   .logo-header2 {
     position: absolute;
