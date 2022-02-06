@@ -87,7 +87,7 @@ h6 {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #e9f4fb;
-    font-size: 40px;
+    font-size: 250%;
   }
   .logo-header2 {
     position: absolute;
@@ -95,7 +95,7 @@ h6 {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #e9f4fb;
-    font-size: 100%;
+    font-size: 250%;
   }
   .logo-headerforlogo {
     position: absolute;
@@ -104,8 +104,8 @@ h6 {
     transform: translate(-50%, -50%);
     color: #e9f4fb;
     font-size: 1%;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
   }
   .logo {
     position: relative;
@@ -184,7 +184,7 @@ h6 {
   }
 }
 /*----------------- for tablet section------------------------- */
-@media (min-width: 490px) {
+@media (max-width: 1180px) {
   .intro {
     position: fixed;
     z-index: 1;
@@ -199,19 +199,19 @@ h6 {
 
   .logo-header {
     position: absolute;
-    top: 70%;
+    top: 66%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #e9f4fb;
-    font-size: 20px;
+    font-size: 200%;
   }
   .logo-header2 {
     position: absolute;
-    top: 28%;
+    top: 36%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #e9f4fb;
-    font-size: 100%;
+    font-size: 200%;
   }
   .logo-headerforlogo {
     position: absolute;
@@ -220,8 +220,8 @@ h6 {
     transform: translate(-50%, -50%);
     color: #e9f4fb;
     font-size: 1%;
-    width: auto;
-    height: 200px;
+    width: 250px;
+    height: 250px;
   }
   .logo {
     position: relative;
