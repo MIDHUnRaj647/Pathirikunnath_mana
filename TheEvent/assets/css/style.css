@@ -871,7 +871,7 @@ h6 {
     # About Section
     --------------------------------------------------------------*/
 #about {
-  background: url("../img/Lat_Img/PBA_5367.jpg");
+  background: url("../img/CompresseedImgs/PBA_0562.jpg");
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -885,7 +885,7 @@ h6 {
 }
 #about:before {
   content: "";
-  background: rgba(22, 22, 22, 0.8);
+  background: rgba(22, 22, 22, 0.5);
   position: absolute;
   bottom: 0;
   top: 0;

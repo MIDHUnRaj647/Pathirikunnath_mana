@@ -680,7 +680,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/Lat_Img/PBA_0499.JPG) top center;
+  background: url(../img/CompresseedImgs/pba_0499.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -869,7 +869,7 @@ h6 {
     # About Section
     --------------------------------------------------------------*/
 #about {
-  background: url("../img/Lat_Img/PBA_5367.jpg");
+  background: url("../img/CompresseedImgs/PBA_0562.jpg");
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -883,7 +883,7 @@ h6 {
 }
 #about:before {
   content: "";
-  background: rgba(22, 22, 22, 0.8);
+  background: rgba(22, 22, 22, 0.5);
   position: absolute;
   bottom: 0;
   top: 0;
