@@ -9,7 +9,23 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+::-webkit-scrollbar-track
+{
 
+	background-color: #1d1d1d;
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #7cb800;
+}
 body {
   background: #fff;
   color: #2f3138;
@@ -2279,3 +2295,169 @@ h6 {
 }
 
 /* LANGUAGE BANNER END */
+
+
+
+
+
+
+#container {
+  margin: auto;
+}
+.grid-item {
+  display: inline-block;
+      height: 259px;
+  
+      overflow: hidden;
+      text-align: center;
+      width: 400px;
+  }
+  .grid-item img{
+    width: 100%;
+    height: 259px;
+    transition: transform .9s ease;
+    object-fit: cover;
+  }
+  .grid-item img:hover{
+    transform: scale(1.1);
+  }
+  
+  .isotope-pager .pager {
+    display: inline-block;
+  }
+  .filters {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 35px;
+    padding-top:20px;
+    
+  }
+  
+  .filters ul {
+    list-style: none;
+      padding: 20px 10px;
+      box-shadow: -1px 1px 11px rgba(0,0,0,.4);
+      margin: 0 40px;
+      border-radius: 30px;
+    background-color: #232323;
+  }
+  
+  .filters li {
+    display: inline-block;
+      padding: 10px 25px;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+  }
+  .filters li a{
+    color: #b6b6b6;
+    text-decoration: none;
+  }
+  .filters li a:hover{
+    color:#fff;
+  }
+  
+  .filters li:hover {
+    box-shadow: -1px 1px 11px rgba(0,0,0,.4);
+    border-radius: 15px;
+  }
+  
+  .filters li.active a{
+    color: #e3ca66;
+    border: 1px solid #e3ca66;
+    border-radius: 15px;
+    box-shadow: -1px 1px 11px rgba(0,0,0,.4);
+    padding: 10px 25px;
+    
+  }
+  
+  
+  
+  .isotope-pager a{
+    margin: 6px 1px;
+      display: inline-block;
+      width: 50px;
+      /* height: 60px; */
+      line-height: 31px;
+      color: #b6b6b6;
+      font-weight: 600;
+      transition: 0.3s;
+      /* position: relative; */
+      /* padding-right: 26px; */
+      box-shadow: -1px 1px 11px rgba(0,0,0,.1);
+      border-radius: 25px;
+      background-color: #232323;
+      border: 0.5px solid #7cb800;
+    text-decoration:none;
+  }
+  
+  .isotope-pager a:hover{
+    color: #fff;
+    border: 0.5px solid #8cd000;
+    box-shadow: -1px 1px 10px 3px rgba(0,0,0,.1);
+  }
+  
+  .isotope-pager .active{
+    color: #e3ca66 !important;
+      box-shadow: -1px 1px 10px 5px rgba(0,0,0,.1);
+      border-radius: 25px;
+      background-color: #161616;
+      border: 1px dotted #e3ca66;
+  }
+  
+  .isotope-pager .prev{
+    border-radius: 30px 0 0 30px;
+  }
+  
+  .isotope-pager .next{
+    border-radius: 0 30px 30px 0;
+  }
+  
+  .isotope-pager a::before,.isotope-pager a:after{
+    content: "";
+    position: absolute;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+  }
+  .isotope-pager .num::before,.next::before{
+    border-right: 20px solid #2c3e50;
+    right: 100%;
+  }
+  
+  .isotope-pager .num:after,.prev:after{
+    border-right: 20px solid #f1f1f1;
+    right: 0;
+  }
+  
+  
+
+  .mal{
+    font-family: "Noto Serif Malayalam", serif !important;
+  }
+  .eng_lang{
+    display: none !important;
+  }
+  .hide{
+    display: none !important;
+  }
+
+
+  .eng .eng_lang{
+    display: inherit !important;
+  }
+  .eng .eng_lang.section-header, .eng .eng_lang.position-relative, .eng .eng_lang.footer-links{
+    display: block !important;
+  }
+
+  .mal_lang{
+    font-family: "Noto Serif Malayalam", serif !important;
+  }
+  .mal_lang a, .mal_lang h2, .mal_lang h4, .mal_lang h3, .mal_lang h1, .mal_lang span{
+    font-family: "Noto Serif Malayalam", serif !important;
+  }
+  .mal_lang address, .mal_lang .contact-info p, .mal_lang .contact-info a, .mal_lang .emailBtn{
+    font-family: "Amaranth", sans-serif !important;
+  }
+  .eng .mal_lang{
+    display: none !important;
+  }
