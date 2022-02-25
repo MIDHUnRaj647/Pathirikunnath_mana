@@ -883,7 +883,7 @@ h6 {
     # About Section
     --------------------------------------------------------------*/
 #about {
-  background: url("../img/CompresseedImgs/PBA_0562.jpg");
+  background: url(../img/CompresseedImgs/aboutbg.jpg);
   background-size: cover;
   overflow: hidden;
   position: relative;
