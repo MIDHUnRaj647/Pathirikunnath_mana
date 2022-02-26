@@ -2511,8 +2511,8 @@ h6 {
 
 /* Scroller styling */
 .scroller {
-  height: 2.2em;
-  line-height: 2.2em;
+  height: 25px;
+  line-height: 35px;
   position: absolute;
   overflow: hidden;
   width: 100em;
@@ -2524,6 +2524,9 @@ h6 {
   animation: slide 8s infinite;
   font-weight: bold;
   font-size: 30px;
+  
+  margin-left: 39%;
+  margin-right: 30%;
   color: rgb(108, 156, 13);
 }
 @keyframes slide {
