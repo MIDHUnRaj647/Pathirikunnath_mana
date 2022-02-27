@@ -737,6 +737,8 @@ h6 {
   font-size: 56px;
   font-weight: 600;
   text-transform: uppercase;
+  position: absolute;
+  bottom: 18%;
 }
 #hero h1 span {
   color: rgb(124, 184, 0);
@@ -750,6 +752,8 @@ h6 {
   color: #ebebeb;
   font-weight: 700;
   font-size: 20px;
+  position: absolute;
+  bottom: 10%;
 }
 @media (max-width: 991px) {
   #hero p {
@@ -841,16 +845,20 @@ h6 {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 2px solid rgb(124, 184, 0);
+  position: absolute;
+  bottom: 2%;
 }
 #hero .about-btn:hover {
   background: rgb(124, 184, 0);
   color: #fff;
 }
 .mainlogo {
-  max-width: 30%;
   height: auto;
   display: table;
   margin: 0 auto;
+  position: absolute;
+  top: 0;
+  width: 285px;
 }
 @media (max-width: 480px) {
   .mainlogo {
@@ -2434,7 +2442,8 @@ h6 {
 }
 .eng .eng_lang.section-header,
 .eng .eng_lang.position-relative,
-.eng .eng_lang.footer-links {
+.eng .eng_lang.footer-links,
+.eng .footer-info.eng_lang {
   display: block !important;
 }
 
@@ -2457,6 +2466,10 @@ h6 {
 }
 .eng .mal_lang {
   display: none !important;
+}
+
+.eng .eng_lang.scroller {
+  display: flex !important;
 }
 
 @media screen and (max-width: 808px) {
@@ -2511,12 +2524,15 @@ h6 {
 
 /* Scroller styling */
 .scroller {
-  height: 25px;
+  display: flex;
+  height: 35px;
   line-height: 35px;
   position: absolute;
   overflow: hidden;
-  width: 100em;
+  width: 100%;
   color: rgb(108, 156, 13);
+  bottom: 37%;
+  justify-content: center;
 }
 .scroller > span {
   position: absolute;
@@ -2524,9 +2540,6 @@ h6 {
   animation: slide 8s infinite;
   font-weight: bold;
   font-size: 30px;
-  
-  margin-left: 39%;
-  margin-right: 30%;
   color: rgb(108, 156, 13);
 }
 @keyframes slide {
