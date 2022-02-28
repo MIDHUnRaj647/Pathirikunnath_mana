@@ -692,7 +692,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/CompresseedImgs/pba_0499.jpg) top center;
+  background: url(../img/otherimg/pba_0499.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -858,11 +858,32 @@ h6 {
   margin: 0 auto;
   position: absolute;
   top: 0;
-  width: 285px;
+  width: 400px;
+  margin-top: 30px;
 }
 @media (max-width: 480px) {
   .mainlogo {
-    max-width: 60%;
+    max-width: 90%;
+    width: 500px;
+  }
+  .scroller {
+    display: flex;
+    height: 30px !important;
+    line-height: 25px !important;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    color: rgb(108, 156, 13);
+    bottom: 37%;
+    justify-content: center;
+  }
+  .scroller > span {
+    position: absolute;
+    top: 0;
+    animation: slide 8s infinite;
+    font-weight: bold;
+    font-size: 20px !important;
+    color: rgb(108, 156, 13);
   }
 }
 
@@ -891,7 +912,7 @@ h6 {
     # About Section
     --------------------------------------------------------------*/
 #about {
-  background: url(../img/CompresseedImgs/aboutbg.jpg);
+  background: url(../img/otherimg/aboutbg.jpg);
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -1601,12 +1622,14 @@ h6 {
 }
 #contact .contact-address,
 #contact .contact-phone,
+#contact .contact-wap,
 #contact .contact-email {
   margin-bottom: 20px;
 }
 @media (min-width: 768px) {
   #contact .contact-address,
   #contact .contact-phone,
+  #contact .contact-wap,
   #contact .contact-email {
     padding: 20px 0;
   }
@@ -1614,6 +1637,10 @@ h6 {
 @media (min-width: 768px) {
   #contact .contact-phone {
     border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
+  #contact .contact-wap {
+    /* border-left: 1px solid #ddd; */
     border-right: 1px solid #ddd;
   }
 }
@@ -1680,7 +1707,7 @@ h6 {
   cursor: pointer;
 }
 #contact .php-email-form button[type="submit"]:hover {
-  background: #e0072f;
+  background: rgb(77, 114, 4);
 }
 #contact .php-email-form .emailBtn {
   background: rgb(124, 184, 0);
@@ -1692,7 +1719,7 @@ h6 {
   cursor: pointer;
 }
 #contact .php-email-form .emailBtn:hover {
-  background: #e0072f;
+  background: rgb(77, 114, 4);
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -1926,7 +1953,7 @@ h6 {
   background-image: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 0.009) 11.7%,
+    rgba(0, 0, 0, 0.034) 11.7%,
     rgba(0, 0, 0, 0.034) 22.1%,
     rgba(0, 0, 0, 0.072) 31.2%,
     rgba(0, 0, 0, 0.123) 39.4%,

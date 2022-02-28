@@ -259,7 +259,7 @@
       [720, 10],
     ];
 
-    var itemsPerPageDefault = 6;
+    var itemsPerPageDefault = 8;
     var itemsPerPage = defineItemsPerPage();
     var currentNumberPages = 1;
     var currentPage = 1;
