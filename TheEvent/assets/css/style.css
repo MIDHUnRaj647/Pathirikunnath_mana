@@ -22,6 +22,10 @@
   border-radius: 10px;
   background-color: #7cb800;
 }
+html,
+body {
+  overflow-x: hidden;
+}
 body {
   background: #fff;
   color: #2f3138;
@@ -858,7 +862,7 @@ h6 {
   margin: 0 auto;
   position: absolute;
   top: 0;
-  width: 400px;
+  width: 285px;
   margin-top: 30px;
 }
 @media (max-width: 480px) {
@@ -1983,7 +1987,7 @@ h6 {
   background-position: 0 0;
   transition: 0.5s all ease-in-out;
   pointer-events: none;
-  background-image: url(../img/pic1.jpg);
+  background-image: url(../img/otherimg/sarpbali.jpg);
 }
 .card .img1:hover {
   transform: scale(1.5);
@@ -2000,7 +2004,7 @@ h6 {
   background-position: 0 0;
   transition: transform calc(var(--d) * 1.5) var(--e);
   pointer-events: none;
-  background-image: url(../img/green2.jpeg);
+  background-image: url(../img/otherimg/nagkeerth.jpg);
 }
 .card .img3 {
   content: "";
@@ -2013,7 +2017,7 @@ h6 {
   background-position: 0 0;
   transition: transform calc(var(--d) * 1.5) var(--e);
   pointer-events: none;
-  background-image: url(../img/Green3.jpeg);
+  background-image: url(../img/otherimg/img2.jpg);
 }
 
 /* .card:nth-child(1):before {
@@ -2499,7 +2503,7 @@ h6 {
   display: flex !important;
 }
 
-@media screen and (max-width: 808px) {
+@media screen and (max-width: 991px) {
   .navbar .eng_lang {
     display: none !important;
   }
@@ -2508,6 +2512,11 @@ h6 {
   }
   .navbar-brand .eng_lang {
     display: none !important;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .mainlogo {
+    width: 400px;
   }
 }
 /* for scroller */
